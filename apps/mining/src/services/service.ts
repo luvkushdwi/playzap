@@ -103,7 +103,7 @@ export class MiningService {
           { where: { userId } }
         );
       }
-    }, 2000);
+    }, 3600000); 
     
   }
 

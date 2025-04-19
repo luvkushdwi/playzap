@@ -1,7 +1,6 @@
 import { Request, Response } from 'express';
 import { MiningService } from '../services/service';
 
-
 const miningService = new MiningService();
 
 export class MiningController {
