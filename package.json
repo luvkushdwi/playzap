@@ -1,0 +1,28 @@
+{
+  "name": "playzap",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:mining": "npm --prefix apps/mining run start",
+    "start:encrypt-decrypt": "npm --prefix apps/encrypt-decrypt run start"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.1",
+    "@types/sequelize": "^4.28.20",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "db": ["packages/db/src/*"],
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
